@@ -1,0 +1,1683 @@
+{
+    "Off": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.2
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "realistic": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.2
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "RAW photo",
+        "post_positive_prompt": "architectural photography, 8k uhd, dslr, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "worst quality, low quality, lowres, watermark, signature, text font, username, logo, autograph, trademark, name, grainy, jpeg artifacts, glitch, duplicate, airbrushed, cartoon, anime, manga"
+    },
+    "artistic_sketch": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "sketch_it.safetensors": {
+                "min": 0.5,
+                "max": 1.25
+            },
+            "19-08-2024-rendair-ai-sketch-style-v02.02.safetensors": {
+                "min": 0.05,
+                "max": 0.15
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "architecture sketch, artistic drawing, sketch, drawing",
+        "post_positive_prompt": "heavy thick lines, sketch, high quality, detailed, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "architectural_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "27-08-2024-rendair-ai-sketch-style-v03-cleaned-0007.safetensors": {
+                "min": 0.1,
+                "max": 0.4
+            },
+            "handsketch.safetensors": {
+                "min": 0.2,
+                "max": 0.8
+            }
+        },
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.5
+        },
+        "pre_positive_prompt": "architecture markers drawing, Illustrative architectural drawing, hand-drawn style",
+        "post_positive_prompt": "drawing, high quality, detailed, paper texture",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.3
+            }
+        },
+        "loras": {
+            "painting-style.safetensors": {
+                "min": 0.2,
+                "max": 1.25
+            },
+            "19-08-2024-rendair-ai-sketch-style-v02.02.safetensors": {
+                "min": 0.1,
+                "max": 0.25
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "architecture painting, digital painting",
+        "post_positive_prompt": "oil painting, high quality, detailed, high quality, film grain",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "architectural_illustration_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "12-09-2024-rendair-ai-collage-style-01-000006.safetensors": {
+                "min": 0.3,
+                "max": 0.6
+            }
+        },
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.8
+        },
+        "pre_positive_prompt": "architectural illustration, architectural collage, Illustrative style",
+        "post_positive_prompt": "digital illustration, 8k uhd, detailed, high quality, film grain",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "watercolor": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "12-09-2024-rendair-ai-collage-style-01-000006.safetensors": {
+                "min": 0.6,
+                "max": 1.25
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "architectural (watercolor) drawing, hand drawn",
+        "post_positive_prompt": "watercolor, textured paper, 8k uhd, detailed, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "marker_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "19-08-2024-rendair-ai-sketch-style-v02.02.safetensors": {
+                "min": 0.2,
+                "max": 0.8
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.2,
+            "max": 0.8
+        },
+        "pre_positive_prompt": "architectural (marker drawing:1.2), marker painting",
+        "post_positive_prompt": "marker pen drawing, 8k uhd, detailed, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "pink_abstract_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": " digital art",
+        "post_positive_prompt": "ultra-detailed surface texturing, candy-saturated colors, soft diffused lighting, matte finish, clean graphic arrangement, 3D modeling quality, micro-detailed organic patterns, airbrushed transitions, surreal color enhancement, clinical precision, film grain, 8k uhd",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "charcoal_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "05July-XL-Merged-07-06-VAE.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "charcoal drawing, handdrawn",
+        "post_positive_prompt": "charcoal drawing style, conceptual architectural drawing, dramatic contrast, expressive strokes, rich textures, dynamic composition, professional-grade finish, classic aesthetic",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "text-to-render_realistic": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "06-11-2024-FLUX-Compact.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "photo of",
+        "post_positive_prompt": ", high quality, detailed, realistic",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_artistic_sketch": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "06-11-2024-FLUX-Compact.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "minimalist sketch",
+        "post_positive_prompt": "monochromatic, featuring precise linework and light hatching to define form and depth. The illustration focuses on clean, straight lines to represent the structure with a touch of organic, hand-drawn imperfections, conveying a sense of warmth and artistry. Soft shading and cross-hatching techniques are subtly used for shadow and dimension, while trees and surrounding elements are loosely sketched, enhancing the contrast with the building’s clean geometry. The composition feels balanced, allowing the architecture to stand out while providing just enough context with the environment. The style is reminiscent of traditional architectural drafting, with an emphasis on capturing the essence of the building rather than photorealistic detail, evoking a classic, timeless aesthetic. The overall mood is calm and contemplative, suitable for concept presentations or preliminary design exploration",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_architectural_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "06-11-2024-FLUX-Compact.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "markers drawing, Illustrative drawing, hand-drawn style",
+        "post_positive_prompt": "clean and precise drawing style, characterized by fine, controlled linework and subtle hatching. Each line is carefully placed, giving the image a sense of structure and accuracy without excessive detail. The shading is achieved through soft, parallel hatching, which adds depth and dimension while maintaining a light and airy feel. The line weight varies subtly, providing a sense of hierarchy and enhancing the perception of depth, particularly around window frames, edges, and shadowed areas. The vegetation and background elements are rendered with delicate, minimal lines, ensuring they complement the architecture without detracting from it. The overall style has a refined, almost technical quality, combining the precision of architectural drafting with the softness of hand-drawn elements. The restrained use of shading and the minimalist approach create a balanced, harmonious look, emphasizing form and volume over intricate detail.",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "oil_painting.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "oil painting art style",
+        "post_positive_prompt": "rich colors, lush textures, expressive brushwork, blendable layers, dynamic compositions, professional-grade finish, versatile medium, timeless elegance, immersive depth, vibrant hues, intricate detailing, adds depth and dimension",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_watercolor": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "06-11-2024-FLUX-Compact.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Watercolor painting art style",
+        "post_positive_prompt": "transparent and delicate layers, luminous and ethereal effects, spontaneous and fluid compositions, subtle gradients and blending, captures light and atmosphere, creates soft and dreamy scenes",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_watercolor_plus": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "watercolor_plus.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Watercolor painting art style, watercolor illustration",
+        "post_positive_prompt": "transparent and delicate layers, luminous and ethereal effects, spontaneous and fluid compositions, subtle gradients and blending, captures light and atmosphere, creates soft and dreamy scenes",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_marker_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "marker_drawing.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "detailed marker drawing, marker painting, drawing, illustration, sketch",
+        "post_positive_prompt": "bold marker lines, visibile paper texture, marker drawing",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_pink_abstract_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "06-11-2024-FLUX-Compact.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Playful and vibrant pop-art-inspired illustration with a surreal and abstract composition",
+        "post_positive_prompt": "this style uses bold, saturated colors and smooth gradients, creating a lively yet harmonious visual effect. Detailed textures and fine stippling give each element depth and tactile quality, while the shapes remain clean and polished. The style combines a blend of whimsical and modern design elements, with a focus on geometric and organic forms. Each section of the illustration feels distinct yet cohesive, contributing to a sense of visual variety within a single scene. The composition evokes a playful, slightly surreal aesthetic, reminiscent of classic comic art yet elevated with a contemporary, digital twist. 8k UHD, ultra-detailed, high resolution, with a focus on striking color contrasts and meticulously crafted lines",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text-to-render_charcoal_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "charcoal_drawing.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "charcoal drawing, handdrawn",
+        "post_positive_prompt": "charcoal drawing style, conceptual architectural drawing, dramatic contrast, expressive strokes, rich textures, dynamic composition, professional-grade finish, classic aesthetic",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "magic_variations_default": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.5
+        }
+    },
+    "magic_variations_winter": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.5
+        },
+        "pre_positive_prompt": "winter season, cold weather, snow covered surfaces, icy landscape, serene snowy environment",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "white building"
+    },
+    "magic_variations_spring": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "spring season, flowers blooming, green nature, bright daylight",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_summer": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "summer season, bright sunlight, blue skies, warm weather",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_autumn": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "autumn season, fall colors, golden light",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_sunset": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1
+        },
+        "pre_positive_prompt": "sunset light, evening atmosphere, warm colors",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_sunrise": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1
+        },
+        "pre_positive_prompt": "sunrise, early morning light, dawn colors, morning atmosphere",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_dawn": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        }
+    },
+    "magic_variations_night": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.6
+        },
+        "pre_positive_prompt": "night photography, night time, city lights, long exposure techniques, evening night view, lit windows, artificial interior lights, soft cozy lights in late evening, dramatic shadows",
+        "post_positive_prompt": "capturing the essence of darkness, ethereal atmosphere",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_rainy": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "rain, wet surfaces, cloudy sky, water reflections",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_mist-foggy": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1
+        },
+        "pre_positive_prompt": "fog, misty air, atmospheric fog, subtle depth, reduced visibility, soft outlines",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_snowy": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.7
+        },
+        "pre_positive_prompt": "snowy, winter weather, winter landscape, cold season",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "white building"
+    },
+    "magic_variations_enhance": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "style_lora_1": {
+                "name": "OFF",
+                "min": 0.2,
+                "max": 0.5
+            },
+            "style_lora_2": {
+                "name": "OFF",
+                "min": 0.1,
+                "max": 0.25
+            },
+            "style_lora_3": {
+                "name": "OFF",
+                "min": 0,
+                "max": 0
+            },
+            "style_lora_4": {
+                "name": "OFF",
+                "min": 0,
+                "max": 0
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.6
+        },
+        "pre_positive_prompt": "professional photography, ultra-detailed, high resolution, cinematic",
+        "post_positive_prompt": "RAW photo, best quality, image adjustments, LUT",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "overexposed, text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_lego_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "made out of LEGO blocks, miniature model, LEGO style, toy-like appearance",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_pixel_art": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "pixel art, 8-bit style, pixel style render, retro gaming look",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_flat_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "flat illustration, modern 2D style, minimalistic simple shapes",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_pink_abstract_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.9
+        },
+        "pre_positive_prompt": "abstract illustration style, creative design, artistic look",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_comicbook_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.9
+        },
+        "pre_positive_prompt": "comic book style, graphic illustration, bold lines",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_artistic_sketch": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "sketch_it.safetensors": {
+                "min": 0.5,
+                "max": 0.9
+            },
+            "19-08-2024-rendair-ai-sketch-style-v02.02.safetensors": {
+                "min": 0.05,
+                "max": 0.15
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "artistic sketch, hand drawing, artistic style",
+        "post_positive_prompt": "heavy thick lines, messy artistic sketch, high quality, detailed, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_architectural_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.8
+        },
+        "pre_positive_prompt": "architectural drawing, hand-drawn look, technical style, marker drawing style",
+        "post_positive_prompt": "paper texture, high detail",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "painting-style.safetensors": {
+                "min": 0.2,
+                "max": 0.8
+            },
+            "19-08-2024-rendair-ai-sketch-style-v02.02.safetensors": {
+                "min": 0.1,
+                "max": 0.15
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "painting style, painted look, artistic style",
+        "post_positive_prompt": "oil painting technique",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_architectural_illustration_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "12-09-2024-rendair-ai-collage-style-01-000006.safetensors": {
+                "min": 0.4,
+                "max": 0.7
+            }
+        },
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 1
+        },
+        "pre_positive_prompt": "architectural illustration, creative collage, detailed illustration style",
+        "post_positive_prompt": "paper texture, high quality, detailed, high quality",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_watercolor": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "watercolor style, soft colors, hand-painted look",
+        "post_positive_prompt": "textured paper, watercolor effects",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_charcoal_drawing": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": true,
+            "min": 0.1,
+            "max": 0.5
+        },
+        "pre_positive_prompt": "charcoal sketch, black and white, strong contrast",
+        "post_positive_prompt": "charcoal drawing technique",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_analog_photography": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.7
+        },
+        "pre_positive_prompt": "analog photography, film grain, authentic film looks, vintage camera effects, grain effect, old camera style",
+        "post_positive_prompt": "film grain, light effects",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_retro_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.8
+        },
+        "pre_positive_prompt": "retro style, old-school design, vintage look",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "magic_variations_vector_silhouette": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "01-11-2024-magic-variations-edit.safetensors",
+                "strength": 1.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {},
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 0.7
+        },
+        "pre_positive_prompt": "flat vector silhouette on solid background, minimalist, SVG silhouette art style, clean lines and shapes,, vector silhouette, clean lines, solid background",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "text, font, username, logo, autograph, trademark, name"
+    },
+    "text_to_render_archviz": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "archviz.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "archviz",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_abstract_painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "abstract_painting.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "sketch painting, Eldritch style painting",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_ghibli_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "ghibli_style.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Ghibli style, ghiblistyle",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_pixel_art": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "pixel_art_01-2.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            },
+            "pixel_Art_02-2.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "ArsMJStyle, Pixel Art style",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "made out of pixels"
+    },
+    "text_to_render_pixel_art_plus": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "pixel_art_plus.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "a pixel image of, pixel style",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_artistify": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "artistify.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_retro_comic": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "retro_comic.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Illustration",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_crayon": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "crayon.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "xijie-crayon, crayon drawing style",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_ink_strokes": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "ink_strokes.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "zydInk, zydink, ink drawing style, ink strokes",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_hatch_it": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "hatch_it.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "1NK_H4TCH1NG",
+        "post_positive_prompt": "The lines vary in thickness and spacing, showcasing techniques such as parallel hatching, cross-hatching, and stippling. paper texture, grainy",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_illustration_style": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "illustration.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "illustration, artwork, painting, digital",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_flat_vector": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "flat_vector.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "geometric flat vector-77",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": "minimal vectoral drawing, flat vector illustration"
+    },
+    "text_to_render_cute_crayon": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "cute_crayon.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "a childish crayon drawing, chldshCE_style",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_artistic_painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "artistic_painting.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Euan Uglow Style",
+        "post_positive_prompt": "painting",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_fantasy_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "fantasy_illustration.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Special Ink-drawing mode, animeniji, Mh1$AgThS2, 2D flat anime, cartoon-style",
+        "post_positive_prompt": "intricate linework with expressive contrasts, soft lighting with dynamic highlights, WLOP",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_detailed_illustration": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "detailed_illustration.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "ArsMJStyle, HyperDetailed Illustration, arsmjstyle, hyperdetailed illustration",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_illustration_plus": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "illustration_plus.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "stylized illustration by Incase",
+        "post_positive_prompt": "illustration",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_line_art": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "line_art.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "lineartlora, lineart drawing, drawing",
+        "post_positive_prompt": "sketch, lineart drawing",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_bold_oil_painting": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "bold_oil_painting.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "OByouhua, oil painting",
+        "post_positive_prompt": "",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_stained_glass": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "stained_glass.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "ArsMJStyle, Stained Glass",
+        "post_positive_prompt": "made out of stained glass, details and shines with glowing stained glass textures",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    },
+    "text_to_render_dynamic_blur": {
+        "checkpoints": {
+            "checkpoint_1": {
+                "name": "OFF",
+                "strength": 0.0
+            },
+            "checkpoint_2": {
+                "name": "OFF",
+                "strength": 0.0
+            }
+        },
+        "loras": {
+            "dynamic_blur.safetensors": {
+                "min": 0.2,
+                "max": 1.2
+            }
+        },
+        "custom_style": {
+            "enabled": false,
+            "min": 0.1,
+            "max": 1.2
+        },
+        "pre_positive_prompt": "Motion blur",
+        "post_positive_prompt": "focused on a object in foreground",
+        "pre_negative_prompt": "",
+        "post_negative_prompt": ""
+    }
+}
